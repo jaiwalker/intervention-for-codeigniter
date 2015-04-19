@@ -1,0 +1,23 @@
+{
+  "name": "jaykora/codeigniter-composer",
+  "description": "trying to use composer for codeigniter .",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Codeigniter Composer",
+      "email": "kora.jayaram@gmail.com"
+    }
+  ],
+  "minimum-stability": "dev",
+  "require": {
+    "intervention/image": "dev-master",
+    "intervention/imagecache": "dev-master",
+    "michelf/php-markdown": "1.4.*@dev",
+    "phpunit/phpunit": "4.5.*@dev",
+    "phpspec/phpspec": "~2.0"
+  },
+  "config": {
+    "bin-dir": "bin"
+  },
+  "autoload": {"psr-0": {"": "bin/src"}}
+}
